@@ -1,0 +1,3 @@
+[
+  "function EIP712_DOMAIN_TYPEHASH() view returns (bytes32)"
+]

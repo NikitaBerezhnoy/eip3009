@@ -1,0 +1,12 @@
+[
+  "event AuthorizationCanceled(address indexed,bytes32 indexed)",
+  "event AuthorizationUsed(address indexed,bytes32 indexed)",
+  "function CANCEL_AUTHORIZATION_TYPEHASH() view returns (bytes32)",
+  "function DOMAIN_SEPARATOR() view returns (bytes32)",
+  "function RECEIVE_WITH_AUTHORIZATION_TYPEHASH() view returns (bytes32)",
+  "function TRANSFER_WITH_AUTHORIZATION_TYPEHASH() view returns (bytes32)",
+  "function authorizationState(address,bytes32) view returns (bool)",
+  "function cancelAuthorization(address,bytes32,uint8,bytes32,bytes32)",
+  "function receiveWithAuthorization(address,address,uint256,uint256,uint256,bytes32,uint8,bytes32,bytes32)",
+  "function transferWithAuthorization(address,address,uint256,uint256,uint256,bytes32,uint8,bytes32,bytes32)"
+]

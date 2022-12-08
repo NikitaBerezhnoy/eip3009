@@ -106,7 +106,7 @@ const config: HardhatUserConfig = {
             forking: {
                 url: process.env.FORKING_URL || "",
                 enabled: process.env.FORKING !== undefined
-            }//,
+            } //,
             /*
              * Uncomment the line below if Ethers reports the error
              * "Error: cannot estimate gas; transaction may fail or may require manual gas limit...".
@@ -195,7 +195,7 @@ const config: HardhatUserConfig = {
             // "@openzeppelin/contracts/token/ERC20/presets/ERC20PresetMinterPauser.sol",
             // "@openzeppelin/contracts/token/ERC20/presets/ERC20PresetFixedSupply.sol"
         ],
-        path: "./from-dependencies"//,
+        path: "./from-dependencies" //,
         /*
          * Required for Slither if something in `paths`. It is to keep temporary file directory after compilation is
          * complete.

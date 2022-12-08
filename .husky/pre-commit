@@ -7,4 +7,4 @@ git add abi/
 npm run dev:docs
 git add docs/
 
-npx lint-staged
+# npx lint-staged
